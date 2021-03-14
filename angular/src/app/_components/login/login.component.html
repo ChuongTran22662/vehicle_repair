@@ -1,0 +1,17 @@
+﻿<div class="container">
+  <div class="col-6 right">
+    <div class="col-8">
+      <h3 style="text-align: center;font-size: 2rem;color: #67666e;">Đăng nhập</h3>
+
+      <form (ngSubmit)="onSubmit()">
+        <tmss-text-input name="userName" [text]="'Tên tài khoản'"></tmss-text-input>
+        <tmss-text-input name="passWord" [text]="'Mật khẩu'"></tmss-text-input>
+        <div>
+          <div class="body-login-button">
+            <button class="tmss-btn btn-outline-primary mr-2 mt-1">Đăng nhập</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
